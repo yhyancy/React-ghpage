@@ -12,11 +12,11 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      - name: Build site
-        uses: crazy-max/ghaction-github-pages@v2
-        with:
-          target_branch: gh-pages
-          build_dir: .
+      # - name: Build site
+      #   uses: crazy-max/ghaction-github-pages@v2
+      #   with:
+      #     target_branch: gh-pages
+      #     build_dir: .
 
       # - name: Deploy site
       #   uses: peaceiris/actions-gh-pages@v3
